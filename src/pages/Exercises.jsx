@@ -20,9 +20,11 @@ const Exercises = () => {
           setBodyPart={setBodyPart}
         />
       </div>
-      <div id="exercises" className="max-w-7xl mx-auto">
-        <h1>Showing Results</h1>
-        <div>
+      <div
+        id="exercises"
+        className="max-w-7xl mx-auto flex flex-col items-center">
+        <h1 className="text-2xl font-bold mb-4">Showing Results</h1>
+        <div className="flex flex-wrap gap-4 ">
           {exercises.map((exercise, index) => (
             <WorkoutCard key={index} exercise={exercise} />
           ))}
