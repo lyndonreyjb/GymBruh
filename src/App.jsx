@@ -18,7 +18,7 @@ const router = createBrowserRouter([
         errorElement: <ElementError />,
       },
       {
-        path: "exercises/:id",
+        path: "exercise/:id",
         element: <Exercises />,
         errorElement: <ElementError />,
       },

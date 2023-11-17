@@ -10,7 +10,6 @@ const Categories = ({ bodyParts, setBodyPart, bodyPart }) => {
           <div
             onClick={() => {
               setBodyPart(category);
-              window.scrollTo({ top: 1800, left: 100, behavior: "smooth" });
             }}
             className="font-semibold capitalize text-black">
             {category}

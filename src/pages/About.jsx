@@ -5,8 +5,8 @@ const About = () => {
   return (
     <div className="bg-gray-100 min-h-screen text-black">
       <img src={imageUrl} alt="workout" className="object-cover h-96 w-full" />
-      <div className="max-w-4xl mx-auto min-h-screen ">
-        <h1 className="flex text-4xl font-bold mb-4 text-primary mt-14">
+      <div className="max-w-4xl mx-auto py-20">
+        <h1 className="flex text-4xl font-bold mb-4 text-primary ">
           Welcome to Gym
           <GiMuscleUp />
           Bruh
