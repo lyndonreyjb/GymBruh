@@ -1,12 +1,11 @@
 import { GiMuscleUp } from "react-icons/gi";
+import aboutImg from "../assets/about.jpg";
 const About = () => {
-  const imageUrl =
-    "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?q=80&w=1894&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
   return (
     <div className="bg-gray-100 min-h-screen text-black">
-      <img src={imageUrl} alt="workout" className="object-cover h-96 w-full" />
-      <div className="max-w-4xl mx-auto py-20">
-        <h1 className="flex text-4xl font-bold mb-4 text-primary ">
+      <img src={aboutImg} alt="workout" className="object-cover h-96 w-full" />
+      <div className="max-w-4xl mx-auto min-h-screen ">
+        <h1 className="flex text-4xl font-bold mb-4 text-primary mt-14">
           Welcome to Gym
           <GiMuscleUp />
           Bruh
