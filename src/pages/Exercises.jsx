@@ -9,7 +9,7 @@ const Exercises = () => {
   const [bodyPart, setBodyPart] = useState("all");
   const [exercises, setExercises] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [exercisesPerPage] = useState(3);
+  const [exercisesPerPage] = useState(9);
   const imageUrl =
     "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
   //fetch data
