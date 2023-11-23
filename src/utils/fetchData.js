@@ -9,6 +9,14 @@ export const exerciseOption = {
   },
 };
 
+export const youtubeOption = {
+  method: "GET",
+  headers: {
+    "X-RapidAPI-Key": import.meta.env.VITE_RAPID_API_KEY,
+    "X-RapidAPI-Host": "youtube-search-and-download.p.rapidapi.com",
+  },
+};
+
 export const fetchData = async (url, options) => {
   try {
     const response = await axios.get(url, options);

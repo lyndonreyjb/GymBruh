@@ -1,5 +1,12 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import { Landing, Error, HomeLayout, About, Exercises } from "./pages";
+import {
+  Landing,
+  Error,
+  HomeLayout,
+  About,
+  Exercises,
+  ExerciseDetails,
+} from "./pages";
 import { ElementError } from "./components";
 const router = createBrowserRouter([
   {
@@ -19,7 +26,7 @@ const router = createBrowserRouter([
       },
       {
         path: "exercise/:id",
-        element: <Exercises />,
+        element: <ExerciseDetails />,
         errorElement: <ElementError />,
       },
       {
