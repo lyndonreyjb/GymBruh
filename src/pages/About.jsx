@@ -2,9 +2,9 @@ import { GiMuscleUp } from "react-icons/gi";
 import aboutImg from "../assets/about.jpg";
 const About = () => {
   return (
-    <div className="min-h-screen text-black ">
+    <div className="min-h-screen text-black">
       <img src={aboutImg} alt="workout" className="object-cover h-96 w-full" />
-      <div className="max-w-4xl mx-auto  py-10">
+      <div className="max-w-4xl mx-auto  py-10  p-2">
         <h1 className="flex text-4xl font-bold mb-4 text-primary ">
           Welcome to Gym
           <GiMuscleUp />
