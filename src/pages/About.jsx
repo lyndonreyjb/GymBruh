@@ -22,31 +22,9 @@ const About = () => {
           <p className="text-gray-700">
             We are a passionate team of fitness enthusiasts, dedicated to
             creating a supportive community for individuals seeking positive
-            changes in their lives. Our diverse range of experts, from certified
-            trainers to nutritionists, is committed to providing you with the
-            tools and knowledge you need to achieve your wellness goals.
+            changes in their lives. Committed to providing you with the tools
+            and knowledge you need to achieve your wellness goals.
           </p>
-        </div>
-
-        <div className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">What We Offer:</h2>
-          <ul className="list-disc list-inside text-gray-700">
-            <li>
-              Tailored Fitness Programs: Whether you're a beginner or a seasoned
-              fitness enthusiast, our customized exercise programs cater to all
-              levels and preferences.
-            </li>
-            <li>
-              Nutritional Guidance: We understand the importance of a balanced
-              diet. Our nutrition experts are here to offer personalized advice
-              and support to help you make healthier choices.
-            </li>
-            <li>
-              Community Support: Join our vibrant community of like-minded
-              individuals who share your commitment to a healthier lifestyle.
-              Connect, motivate, and celebrate each other's successes.
-            </li>
-          </ul>
         </div>
 
         <div className="mb-8">
